@@ -9,11 +9,16 @@ import android.widget.Button;
 import java.lang.Object;
 import java.lang.Math;
 
-public class Calculadora extends AppCompatActivity {
+public class Calculadora extends AppCompatActivity implements OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculadora);
+    }
+
+    @Override
+    public void onClick(View view) {
+
     }
 }
